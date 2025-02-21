@@ -1,4 +1,6 @@
-<div class="loader"></div>
+<div class="loader">
+    <slot/>
+</div>
 
 <style>
     .loader {
@@ -10,8 +12,8 @@
         animation: l4 1s steps(4) infinite;
     }
 
-    .loader:before {
-        content: "Loading..."
+    .loader::after {
+        content: "..."
     }
 
     @keyframes l4 {
