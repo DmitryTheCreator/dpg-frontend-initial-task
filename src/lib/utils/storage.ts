@@ -1,3 +1,6 @@
+/**
+ * Dependence
+ */
 import { ErrorUtils } from './error';
 
 /**
